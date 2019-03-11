@@ -117,31 +117,101 @@
 
 3. 多选框 `type: checkbox`
 
+    ```javascript
+        column: [
+         {
+            label: '多选项',
+            prop: 'checkbox',
+            type: 'checkbox',
+            dicData: [
+              {
+                label: '权限1',
+                value: 1
+              },
+              {
+                label: '权限2',
+                value: 2
+              },
+              {
+                label: '权限3',
+                value: 3
+              },
+              {
+                label: '禁止项',
+                disabled:true,
+                value: -1
+              },
+            ]
+          }
+        ]
+    ```
+
+      ```javascript
+        export default {
+          name: 'book',
+          data() {
+            return {
+              data: [{
+                  "bookId":1,
+                  "bookName":"江湖不远",
+                  "press":"学林出版社",
+                  "author":"鲍鹏山",
+                  "evaluation":5,
+                  "checkbox":[1,2]
+                },{
+                  "bookId":2,
+                  "bookName":"见识",
+                  "press":"中信出版社",
+                  "author":"吴军",
+                  "evaluation":5,
+                  "checkbox":[2,3]
+                },{
+                  "bookId":3,
+                  "bookName":"态度",
+                  "press":"中信出版社",
+                  "author":"吴军",
+                  "evaluation":4,
+                  "checkbox":[1,3]
+                }]
+            }
+          }
+      }
+      ```
+
+      ![mark](http://songwenjie.vip/blog/20190306/NY8CJjkujpm4.png?imageslim)
+
+
+4. 树型 `type: tree`
+
    ```javascript
-     column: [
-      {
-         label: '多选项',
-         prop: 'checkbox',
-         type: 'checkbox',
+    column: [
+      {      
+         label: '树型',
+         prop: 'tree',
+         type: 'tree',
          dicData: [
            {
-             label: '权限1',
-             value: 1
-           },
-           {
-             label: '权限2',
-             value: 2
-           },
-           {
-             label: '权限3',
-             value: 3
-           },
-           {
-             label: '禁止项',
-             disabled:true,
-             value: -1
-           },
-         ]
+             label: '山东省',
+             value: '370000',
+             children:[{
+               label: '济南市',
+               value: '370100'
+             },{
+               label: '日照市',
+               value: '371100'
+             }]
+           },{
+             label: '江苏省',
+             value: '320000',
+             children:[{
+               label: '南京市',
+               value: '320100'
+             },{
+               label: '徐州市',
+               value: '370300'
+             }]
+           }
+         ]    
        }
      ]
    ```
@@ -157,95 +227,26 @@
                "press":"学林出版社",
                "author":"鲍鹏山",
                "evaluation":5,
-               "checkbox":[1,2]
+               "tree":'320000'
              },{
                "bookId":2,
                "bookName":"见识",
                "press":"中信出版社",
                "author":"吴军",
                "evaluation":5,
-               "checkbox":[2,3]
+               "tree":'370100'
              },{
                "bookId":3,
                "bookName":"态度",
                "press":"中信出版社",
                "author":"吴军",
                "evaluation":4,
-               "checkbox":[1,3]
+               "tree":'371100'
              }]
          }
        }
    }
    ```
-
-   ![mark](http://songwenjie.vip/blog/20190306/NY8CJjkujpm4.png?imageslim)
-
-   4. 树型 `type: tree`
-
-      ```javascript
-       column: [
-         {      
-            label: '树型',
-            prop: 'tree',
-            type: 'tree',
-            dicData: [
-              {
-                label: '山东省',
-                value: '370000',
-                children:[{
-                  label: '济南市',
-                  value: '370100'
-                },{
-                  label: '日照市',
-                  value: '371100'
-                }]
-              },{
-                label: '江苏省',
-                value: '320000',
-                children:[{
-                  label: '南京市',
-                  value: '320100'
-                },{
-                  label: '徐州市',
-                  value: '370300'
-                }]
-              }
-            ]    
-          }
-        ]
-      ```
-
-      ```javascript
-        export default {
-          name: 'book',
-          data() {
-            return {
-              data: [{
-                  "bookId":1,
-                  "bookName":"江湖不远",
-                  "press":"学林出版社",
-                  "author":"鲍鹏山",
-                  "evaluation":5,
-                  "tree":'320000'
-                },{
-                  "bookId":2,
-                  "bookName":"见识",
-                  "press":"中信出版社",
-                  "author":"吴军",
-                  "evaluation":5,
-                  "tree":'370100'
-                },{
-                  "bookId":3,
-                  "bookName":"态度",
-                  "press":"中信出版社",
-                  "author":"吴军",
-                  "evaluation":4,
-                  "tree":'371100'
-                }]
-            }
-          }
-      }
-      ```
 
 
    ![mark](http://songwenjie.vip/blog/20190306/mWWAKBcz9pmB.png?imageslim)

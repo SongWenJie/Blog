@@ -7,4 +7,5 @@ the repository of blog posts
 - [avue 表格进阶（一）](docs/Vue/avue/avue表格进阶（一）.md)
 - [avue 表格进阶（二）](docs/Vue/avue/avue表格进阶（二）.md)
 - [avue字典](docs/Vue/avue/avue字典.md)
+- [avue form表单元素](docs/Vue/avue/avueform表单元素.md)
 
