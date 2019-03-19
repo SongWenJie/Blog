@@ -19,5 +19,5 @@ the repository of blog posts
 
 ## SpringBoot
 - [如何配置单数据源](docs/SpringBoot/如何配置单数据源.md)
-- [如何使用 JdbcTemplate 操作数据库](docs/SpringBoot/How to operate the database using JdbcTemplate.md)
+- [如何使用 JdbcTemplate 操作数据库](docs/SpringBoot/如何使用JdbcTemplate操作数据库.md)
 
