@@ -22,4 +22,7 @@ the repository of blog posts
 - [如何使用 JdbcTemplate 操作数据库](docs/SpringBoot/如何使用JdbcTemplate操作数据库.md)
 - [如何配置多数据源](docs/SpringBoot/如何配置多数据源.md)
 - [Spring 声明式事务](docs/SpringBoot/Spring声明式事务.md)
+- [Spring 声明式事务属性详解](docs/SpringBoot/Spring声明式事务属性详解.md)
+
+
 
