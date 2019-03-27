@@ -23,6 +23,8 @@ the repository of blog posts
 - [如何配置多数据源](docs/SpringBoot/如何配置多数据源.md)
 - [Spring 声明式事务](docs/SpringBoot/Spring声明式事务.md)
 - [Spring 声明式事务属性详解](docs/SpringBoot/Spring声明式事务属性详解.md)
+- [Spring 声明式事务的本质](docs/SpringBoot/Spring声明式事务的本质.md)
+
 
 
 
