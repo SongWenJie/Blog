@@ -24,6 +24,9 @@ the repository of blog posts
 - [Spring 声明式事务](docs/SpringBoot/Spring声明式事务.md)
 - [Spring 声明式事务属性详解](docs/SpringBoot/Spring声明式事务属性详解.md)
 - [Spring 声明式事务的本质](docs/SpringBoot/Spring声明式事务的本质.md)
+- [Spring Boot 数据存储 - JPA集成](docs/SpringBoot/SpringBoot数据存储-JPA集成.md)
+
+
 
 
 
