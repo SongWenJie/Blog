@@ -27,6 +27,8 @@ the repository of blog posts
 - [Spring 声明式事务的本质](docs/SpringBoot/Spring声明式事务的本质.md)
 - [Spring Boot 数据存储 - JPA集成](docs/SpringBoot/SpringBoot数据存储-JPA集成.md)
 - [Spring Boot 数据存储 - MyBatis 集成](docs/SpringBoot/SpringBoot数据存储-MyBatis集成.md)
+- [Spring - 使用 Jedis 访问 Redis](docs/SpringBoot/Spring-使用Jedis访问Redis.md)
+
 
 
 
