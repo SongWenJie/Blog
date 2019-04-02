@@ -29,6 +29,8 @@ the repository of blog posts
 - [Spring Boot 数据存储 - MyBatis 集成](docs/SpringBoot/SpringBoot数据存储-MyBatis集成.md)
 - [Spring - 使用 Jedis 访问 Redis](docs/SpringBoot/Spring-使用Jedis访问Redis.md)
 - [Spring - 使用RedisTemplate 访问 Redis](docs/SpringBoot/Spring-使用RedisTemplate访问Redis.md)
+- [Spring 缓存抽象](docs/SpringBoot/Spring缓存抽象.md)
+
 
 
 
