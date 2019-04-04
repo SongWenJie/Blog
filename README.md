@@ -21,6 +21,10 @@ the repository of blog posts
 ## Redis
 - [Redis 简介](docs/Redis/Redis简介.md)
 
+## Java
+- [Lombok @Builder注解与继承](docs/Java/Lombok@Builder注解与继承.md)
+
+
 ## SpringBoot
 - [如何配置单数据源](docs/SpringBoot/如何配置单数据源.md)
 - [如何使用 JdbcTemplate 操作数据库](docs/SpringBoot/如何使用JdbcTemplate操作数据库.md)
