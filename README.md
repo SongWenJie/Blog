@@ -18,6 +18,8 @@ the repository of blog posts
 ## SOLID
 - [单一职责原则](docs/Solid/单一职责原则.md)
 - [开放封闭原则](docs/Solid/开放封闭原则.md)
+- [接口分离原则](docs/Solid/接口分离原则.md)
+
 
 ## Redis
 - [Redis 简介](docs/Redis/Redis简介.md)
