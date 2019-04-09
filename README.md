@@ -22,6 +22,10 @@ the repository of blog posts
 - [Liskov替换原则](docs/Solid/Liskov替换原则.md)
 - [依赖注入原则](docs/Solid/依赖注入原则.md)
 
+## 读书笔记
+- [用户思维+](docs/读书笔记/用户思维+.md)
+
+
 
 ## Redis
 - [Redis 简介](docs/Redis/Redis简介.md)
