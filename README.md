@@ -29,6 +29,8 @@ the repository of blog posts
 
 ## Redis
 - [Redis 简介](docs/Redis/Redis简介.md)
+- [Redis KEY 模糊匹配](docs/Redis/Redis-KEY模糊匹配.md)
+
 
 ## Java
 - [Lombok @Builder注解与继承](docs/Java/Lombok@Builder注解与继承.md)
