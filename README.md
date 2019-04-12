@@ -25,6 +25,8 @@ the repository of blog posts
 ## 读书笔记
 - [用户思维+](docs/读书笔记/用户思维+.md)
 - [鞋狗](docs/读书笔记/鞋狗.md)
+- [创业点子](docs/读书笔记/创业点子.md)
+
 
 
 ## Redis
