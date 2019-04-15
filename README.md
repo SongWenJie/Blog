@@ -14,6 +14,7 @@ the repository of blog posts
 
 ## Git
 - [Git提交日志规范](docs/Git/Git提交日志规范.md)
+- [Git Push 多个不同的远程仓库](docs/Git/GitPush多个不同的远程仓库.md)
 
 ## SOLID
 - [单一职责原则](docs/Solid/单一职责原则.md)
