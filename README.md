@@ -17,7 +17,10 @@ the repository of blog posts
 - [Git Push 多个不同的远程仓库](docs/Git/GitPush多个不同的远程仓库.md)
 
 ## MySQL
-- [通过EXPLAIN分析SQL的执行计划](docs/MySQL/通过EXPLAIN分析SQL的执行计划.md)
+- [通过 EXPLAIN 分析 SQL 的执行计划](docs/MySQL/通过EXPLAIN分析SQL的执行计划.md)
+- [MySQL 索引基础](docs/MySQL/MySQL索引基础.md)
+
+
 
 ## SOLID
 - [单一职责原则](docs/Solid/单一职责原则.md)
