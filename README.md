@@ -19,7 +19,7 @@ the repository of blog posts
 ## MySQL
 - [通过 EXPLAIN 分析 SQL 的执行计划](docs/MySQL/通过EXPLAIN分析SQL的执行计划.md)
 - [MySQL 索引基础](docs/MySQL/MySQL索引基础.md)
-
+- [MySQL 索引优化实战](docs/MySQL/MySQL索引优化实战.md)
 
 
 ## SOLID
