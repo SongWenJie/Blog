@@ -22,6 +22,7 @@ the repository of blog posts
 - [MySQL 索引优化实战](docs/MySQL/MySQL索引优化实战.md)
 - [数据库索引背后的数据结构](docs/MySQL/数据库索引背后的数据结构.md)
 - [是什么影响了数据库索引选型](docs/MySQL/是什么影响了数据库索引选型.md)
+- [MySQL索引实现原理](docs/MySQL/MySQL索引实现原理.md)
 
 
 
