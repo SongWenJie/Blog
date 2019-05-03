@@ -24,6 +24,8 @@ the repository of blog posts
 - [是什么影响了数据库索引选型](docs/MySQL/是什么影响了数据库索引选型.md)
 - [MySQL索引实现原理](docs/MySQL/MySQL索引实现原理.md)
 - [MySQL优化嵌套查询和分页查询](docs/MySQL/MySQL优化嵌套查询和分页查询.md)
+- [MySQL优化 ORDER BY 语句](docs/MySQL/MySQL优化ORDERBY语句.md)
+
 
 
 
