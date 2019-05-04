@@ -26,7 +26,8 @@ the repository of blog posts
 - [MySQL优化嵌套查询和分页查询](docs/MySQL/MySQL优化嵌套查询和分页查询.md)
 - [MySQL优化 ORDER BY 语句](docs/MySQL/MySQL优化ORDERBY语句.md)
 
-
+## Database
+- [自连接](docs/Database/自连接.md)
 
 
 ## SOLID
