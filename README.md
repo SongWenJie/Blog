@@ -28,7 +28,7 @@ the repository of blog posts
 
 ## Database
 - [自连接](docs/Database/自连接.md)
-
+- [外连接](docs/Database/外连接.md)
 
 ## SOLID
 - [单一职责原则](docs/Solid/单一职责原则.md)
