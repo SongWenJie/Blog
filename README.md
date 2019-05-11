@@ -25,6 +25,7 @@ the repository of blog posts
 - [MySQL索引实现原理](docs/MySQL/MySQL索引实现原理.md)
 - [MySQL优化嵌套查询和分页查询](docs/MySQL/MySQL优化嵌套查询和分页查询.md)
 - [MySQL优化 ORDER BY 语句](docs/MySQL/MySQL优化ORDERBY语句.md)
+- [MySQL中能够使用的索引的场景](docs/MySQL/MySQL中能够使用的索引的场景.md)
 
 ## Database
 - [自连接](docs/Database/自连接.md)
