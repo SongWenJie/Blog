@@ -69,9 +69,8 @@ the repository of blog posts
 
 
 
-
-
-
+## ES6
+- [箭头函数](docs/ES6/箭头函数.md)
 
 
 
