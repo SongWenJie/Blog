@@ -72,6 +72,8 @@ the repository of blog posts
 ## ES6
 - [箭头函数](docs/ES6/箭头函数.md)
 
+## JavaScript 
+- [JavaScript 作用域不完全指北](docs/JavaScript/JavaScript作用域不完全指北.md)
 
 
 
