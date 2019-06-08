@@ -74,7 +74,7 @@ the repository of blog posts
 
 ## JavaScript 
 - [JavaScript 作用域不完全指北](docs/JavaScript/JavaScript作用域不完全指北.md)
-
+- [JavaScript 词法作用域不完全指北](docs/JavaScript/JavaScript词法作用域不完全指北.md)
 
 
 
