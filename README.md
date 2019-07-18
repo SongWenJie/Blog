@@ -76,6 +76,7 @@ the repository of blog posts
 - [JavaScript 作用域不完全指北](docs/JavaScript/JavaScript作用域不完全指北.md)
 - [JavaScript 词法作用域不完全指北](docs/JavaScript/JavaScript词法作用域不完全指北.md)
 - [JavaScript 函数作用域和块作用域不完全指北](docs/JavaScript/JavaScript函数作用域和块作用域不完全指北.md)
-- [JavaScript提升不完全指北](docs/JavaScript/JavaScript提升不完全指北.md)
+- [JavaScript 提升不完全指北](docs/JavaScript/JavaScript提升不完全指北.md)
+- [JavaScript let和const不完全指北](docs/JavaScript/JavaScriptlet和const不完全指北.md)
 
 
