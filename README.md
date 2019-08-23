@@ -93,3 +93,7 @@ the repository of blog posts
 
 ## 网络
 - [HTTP](docs/网络/HTTP.md)
+
+## IDEA
+- [IDEA](docs/IDEA/IDEA热部署.md)
+
