@@ -1,8 +1,7 @@
-# Row水平布局
+# Row 水平布局
 
 ## Row水平布局
 子元素 children 的排列方式由这两个属性决定 textDirection 和 verticalDirection 。
-
 verticalDirection时水平方向的排列方式。当值为down（向下排列）时起始位置在顶部。当值为up（向上排列）是起始位置在底部。
 
 ### textDirection: children在水平方向的摆放顺序 
@@ -191,4 +190,132 @@ mainAxisAlignment: MainAxisAlignment.spaceEvenly,
 
 ![image.png](https://cdn.nlark.com/yuque/0/2019/png/291118/1568894435064-ce3f7163-e3a8-4236-aad1-286cf877659e.png#align=left&display=inline&height=424&name=image.png&originHeight=847&originWidth=510&size=35756&status=done&width=255)
 
+### crossAxisAlignment: 交叉轴的排列方式
+主轴在此处都以 textDirection: TextDirection.ltr, mainAxisAlignment: MainAxisAlignment.start 为例。
 
+verticalDirection 是垂直方向的排列方式。当值为down（向下排列）时起始位置在顶部。当值为up（向上排列）是起始位置在底部。
+
+#### start
+将子元素在**交叉轴上起点对齐**；根据verticalDirection属性确定交叉轴方向的起点。
+
+- CrossAxisAlignment.start & VerticalDirection.down
+```dart
+crossAxisAlignment: CrossAxisAlignment.start,
+verticalDirection: VerticalDirection.down,
+```
+
+![image.png](https://cdn.nlark.com/yuque/0/2019/png/291118/1568895505583-dd50a894-1ca6-4dd3-9dd1-5f7901d73182.png#align=left&display=inline&height=423&name=image.png&originHeight=846&originWidth=510&size=35557&status=done&width=255)
+
+- CrossAxisAlignment.start & VerticalDirection.up
+```dart
+crossAxisAlignment: CrossAxisAlignment.start,
+verticalDirection: VerticalDirection.up,
+```
+
+![image.png](https://cdn.nlark.com/yuque/0/2019/png/291118/1568895612816-c68192e3-8563-4546-bfd6-a26c7d1b87ec.png#align=left&display=inline&height=424&name=image.png&originHeight=848&originWidth=510&size=34872&status=done&width=255)
+
+#### end
+将子元素在**交叉轴上终点对齐**；根据verticalDirection属性确定交叉轴方向的起点。
+
+- CrossAxisAlignment.end & VerticalDirection.down
+
+```dart
+crossAxisAlignment: CrossAxisAlignment.end,
+verticalDirection: VerticalDirection.down,
+```
+
+![image.png](https://cdn.nlark.com/yuque/0/2019/png/291118/1568895775526-3ca72bb6-b4b9-4843-b7ea-b573722b90eb.png#align=left&display=inline&height=424&name=image.png&originHeight=847&originWidth=510&size=34852&status=done&width=255)
+
+- CrossAxisAlignment.end& VerticalDirection.up
+```dart
+crossAxisAlignment: CrossAxisAlignment.end,
+verticalDirection: VerticalDirection.up,
+```
+
+![image.png](https://cdn.nlark.com/yuque/0/2019/png/291118/1568895936602-fad9b536-d554-496e-82a7-ff0ced4b39a3.png#align=left&display=inline&height=423&name=image.png&originHeight=846&originWidth=510&size=35693&status=done&width=255)
+
+#### center
+将子元素在**交叉轴上居中对齐**。设置 verticalDirection 无改变。
+
+- CrossAxisAlignment.center & VerticalDirection.down
+```dart
+crossAxisAlignment: CrossAxisAlignment.center,
+verticalDirection: VerticalDirection.down,
+```
+
+![image.png](https://cdn.nlark.com/yuque/0/2019/png/291118/1568896146996-182d9bec-1070-46d5-bb31-19b0082da39d.png#align=left&display=inline&height=424&name=image.png&originHeight=848&originWidth=510&size=34589&status=done&width=255)
+
+- CrossAxisAlignment.center & VerticalDirection.up
+```dart
+crossAxisAlignment: CrossAxisAlignment.center,
+verticalDirection: VerticalDirection.up,
+```
+
+![image.png](https://cdn.nlark.com/yuque/0/2019/png/291118/1568896146996-182d9bec-1070-46d5-bb31-19b0082da39d.png#align=left&display=inline&height=424&name=image.png&originHeight=848&originWidth=510&size=34589&status=done&width=255)
+
+#### stretch
+将子元素在**交叉轴上拉伸**。设置 verticalDirection 无改变。
+
+- CrossAxisAlignment.stretch& VerticalDirection.down
+```dart
+crossAxisAlignment: CrossAxisAlignment.stretch,
+verticalDirection: VerticalDirection.down,
+```
+
+![image.png](https://cdn.nlark.com/yuque/0/2019/png/291118/1568896333624-310cec18-d752-4f91-9653-00ab0c51d796.png#align=left&display=inline&height=424&name=image.png&originHeight=847&originWidth=510&size=35650&status=done&width=255)
+
+- CrossAxisAlignment.stretch& VerticalDirection.up
+```dart
+crossAxisAlignment: CrossAxisAlignment.stretch,
+verticalDirection: VerticalDirection.up,
+```
+
+![image.png](https://cdn.nlark.com/yuque/0/2019/png/291118/1568896394578-38b892fb-d53e-4440-8822-08f8a2b65fbe.png#align=left&display=inline&height=424&name=image.png&originHeight=847&originWidth=510&size=35654&status=done&width=255)
+
+#### baseline
+基准线适用于文字。使用baseline，必须设置textBaseline属性。textBaseline 包括字母文字（alphabetic，如：英语）和表意文字（ideographic，如：汉语）。
+```dart
+Widget _buildContainer() {
+    var container = Container(
+      child: Row(
+        textDirection: TextDirection.ltr,
+        mainAxisAlignment: MainAxisAlignment.start,
+        verticalDirection: VerticalDirection.down,
+        crossAxisAlignment: CrossAxisAlignment.baseline,
+        textBaseline: TextBaseline.alphabetic,
+        children: <Widget>[
+          Text(
+            'Flutter',
+            style: TextStyle(color: Colors.blue, fontSize: 30.0),
+          ),
+          Text(
+            'Flutter',
+            style: TextStyle(color: Colors.orange, fontSize: 20.0),
+          )
+        ],
+      ),
+    );
+    return container;
+  }
+```
+
+- 不设置基准线
+
+![image.png](https://cdn.nlark.com/yuque/0/2019/png/291118/1568943176345-67a5d3b8-39c1-442e-83aa-efe16be5c971.png#align=left&display=inline&height=528&name=image.png&originHeight=1055&originWidth=643&size=44819&status=done&width=321.5)
+
+- 设置基准线（baseline）
+
+![image.png](https://cdn.nlark.com/yuque/0/2019/png/291118/1568943208646-f47c9243-4c2e-413b-ae52-f75a3965a082.png#align=left&display=inline&height=528&name=image.png&originHeight=1056&originWidth=643&size=45144&status=done&width=321.5)
+
+### mainAxisSize: 主轴占用空间大小
+mainAxisSize 只有两个值，一个是min，一个是max。默认是max。
+当值为min时候。主轴缩紧，变为最小。此时即使mainAxisAlignment:MainAxisAlignment.spaceAround，主轴的长度仍为最小状态。
+
+- mainAxisSize: MainAxisSize.max & mainAxisAlignment: MainAxisAlignment.spaceAround
+
+        ,
+![image.png](https://cdn.nlark.com/yuque/0/2019/png/291118/1568946442306-27444f1c-f9f2-4935-b82c-cae95f14c3c8.png#align=left&display=inline&height=529&name=image.png&originHeight=1058&originWidth=643&size=40763&status=done&width=321.5)
+
+- mainAxisSize: MainAxisSize.min & mainAxisAlignment: MainAxisAlignment.spaceAround
+
+![image.png](https://cdn.nlark.com/yuque/0/2019/png/291118/1568946596597-b5f398cb-32fe-4355-902e-faf9ee23d322.png#align=left&display=inline&height=529&name=image.png&originHeight=1057&originWidth=643&size=40346&status=done&width=321.5)
