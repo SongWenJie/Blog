@@ -98,3 +98,4 @@ the repository of blog posts
 
 ## Flutter
 - [Row水平布局](docs/flutter/Row水平布局.md)
+- [Column垂直布局](docs/flutter/Column垂直布局.md)
